@@ -85,8 +85,8 @@ const StudioFooter = () => {
             <div className="">
               <Hyperlink destination={config.MARKETING_SITE_BASE_URL}>
                 <Image
-                  src={config.LOGO_URL}
-                  alt="edX logo"
+                  src="https://lms.wealthpro.africa/theming/asset/images/logo.png"
+                  alt="WealthPro Africa"
                   height={32}
                   className="footer-logo"
                 />
