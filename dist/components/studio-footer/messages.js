@@ -22,7 +22,7 @@ var messages = defineMessages({
   },
   edxDocumentationLinkLabel: {
     id: 'edx.authoring.footer.edx_documentation.link.label.text',
-    defaultMessage: 'edX documentation',
+    defaultMessage: 'documentation',
     description: 'Link text for edX documentation in edx footer'
   },
   contactUsLinkLabel: {

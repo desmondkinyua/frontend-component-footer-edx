@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+﻿import React, { useContext } from 'react';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { ensureConfig } from '@edx/frontend-platform';
 import { AppContext } from '@edx/frontend-platform/react';
@@ -47,7 +47,7 @@ const StudioFooter = () => {
             <Hyperlink className="footer-link footer-link-color" destination={`${config.BASE_URL}/home`}>{intl.formatMessage(messages.studioLinkLabel)}</Hyperlink>
             <Hyperlink data-testid="LMS" className="footer-link footer-link-color" destination={config.LMS_BASE_URL}>{intl.formatMessage(messages.lmsLinkLabel)}</Hyperlink>
             {config.ENABLE_RELEASE_NOTES === 'true' && <Hyperlink className="footer-link footer-link-color" destination={`${config.BASE_URL}/release-notes`}>{intl.formatMessage(messages.releaseNotesLinkLabel)}</Hyperlink>}
-            <Hyperlink className="footer-link footer-link-color" destination="https://docs.edx.org/">{intl.formatMessage(messages.edxDocumentationLinkLabel)}</Hyperlink>
+            <Hyperlink className="footer-link footer-link-color" destination="https://wealthpro.africa">{intl.formatMessage(messages.edxDocumentationLinkLabel)}</Hyperlink>
             <MailtoLink className="footer-link footer-link-color" to={config.SUPPORT_EMAIL}>{intl.formatMessage(messages.contactUsLinkLabel)}</MailtoLink>
           </div>
         </Container>
@@ -64,7 +64,7 @@ const StudioFooter = () => {
             <div className="footer-bottom-columns">
               <div className="footer-bottom-col text-muted">
                 <div className="footer-links-row">
-                  <span className="footer-link footer-muted-text-color">© {new Date().getFullYear()} <Hyperlink className="footer-link footer-link-color" destination={config.MARKETING_SITE_BASE_URL}>{config.SITE_NAME}</Hyperlink>.</span>
+                  <span className="footer-link footer-muted-text-color">Â© {new Date().getFullYear()} <Hyperlink className="footer-link footer-link-color" destination={config.MARKETING_SITE_BASE_URL}>{config.SITE_NAME}</Hyperlink>.</span>
                   <Hyperlink data-testid="termsOfService" className="footer-link footer-link-color" destination={config.TERMS_OF_SERVICE_URL}>{intl.formatMessage(messages.termsOfServiceLinkLabel)}</Hyperlink>
                   <Hyperlink className="footer-link footer-link-color" destination={config.PRIVACY_POLICY_URL}>{intl.formatMessage(messages.privacyPolicyLinkLabel)}</Hyperlink>
                   <Hyperlink className="footer-link footer-link-color" destination={`${config.STUDIO_BASE_URL}/accessibility`}>
@@ -78,7 +78,7 @@ const StudioFooter = () => {
                     Translators: 'edX' and 'Open edX' are trademarks of 'edX Inc.'. Please do not translate
                       any of these trademarks and company names.
                   */}
-                  <span className="footer-link footer-muted-text-color">{intl.formatMessage(messages.trademarkMessage)}<Hyperlink className="footer-link footer-link-color" destination="https://www.edx.org">edX Inc</Hyperlink>.</span>
+                  <span className="footer-link footer-muted-text-color">{intl.formatMessage(messages.trademarkMessage)}<Hyperlink className="footer-link footer-link-color" destination="https://wealthpro.africa">WealthPro Africa</Hyperlink>.</span>
                 </div>
               </div>
             </div>

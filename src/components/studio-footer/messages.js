@@ -1,4 +1,4 @@
-import { defineMessages } from '@edx/frontend-platform/i18n';
+﻿import { defineMessages } from '@edx/frontend-platform/i18n';
 
 const messages = defineMessages({
   footerLabel: {
@@ -23,7 +23,7 @@ const messages = defineMessages({
   },
   edxDocumentationLinkLabel: {
     id: 'edx.authoring.footer.edx_documentation.link.label.text',
-    defaultMessage: 'edX documentation',
+    defaultMessage: 'documentation',
     description: 'Link text for edX documentation in edx footer',
   },
   contactUsLinkLabel: {
@@ -48,7 +48,7 @@ const messages = defineMessages({
   },
   trademarkMessage: {
     id: 'authoring.footer.trademark.message',
-    defaultMessage: 'edX, Open edX, and the edX and Open edX logos are registered trademarks of ',
+    defaultMessage: 'WealthPro Africa logos are registered trademarks of ',
     description: 'Message about the use of logos and names edX and Open edX',
   },
 });

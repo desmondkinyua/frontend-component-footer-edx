@@ -38,7 +38,7 @@ var StudioFooter = function StudioFooter() {
     destination: "".concat(config.BASE_URL, "/release-notes")
   }, intl.formatMessage(messages.releaseNotesLinkLabel)), /*#__PURE__*/React.createElement(Hyperlink, {
     className: "footer-link footer-link-color",
-    destination: "https://docs.edx.org/"
+    destination: "https://wealthpro.africa"
   }, intl.formatMessage(messages.edxDocumentationLinkLabel)), /*#__PURE__*/React.createElement(MailtoLink, {
     className: "footer-link footer-link-color",
     to: config.SUPPORT_EMAIL
